@@ -1,8 +1,8 @@
 
-import interactionCreate from "./listeners/interactionCreate";
-import ready from "./listeners/ready";
-import { MyClient } from "./myClient";
-import { Config } from './config';
+import interactionCreate from "./src/listeners/interactionCreate";
+import ready from "./src/listeners/ready";
+import { MyClient } from "./src/myClient";
+import { Config } from './src/config';
 import { Player } from 'discord-player';
 import { GatewayIntentBits } from "discord.js";
 
