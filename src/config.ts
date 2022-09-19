@@ -1,6 +1,6 @@
 export const Config = {
     app: {
-        token: "MTAyMDg2NDgyNDM0OTAzNjYxNQ.GU8Ziz.NyAHRmpHwrG-6Leqz4yzUYLocIxJunwhbEyftg",
+        token: "XXX",
         playing: '!!!CONVOY!!!',
         global: true,
         guild: 'XXX'
