@@ -1,12 +1,16 @@
 
-import interactionCreate from "./src/listeners/interactionCreate";
-import ready from "./src/listeners/ready";
-import { MyClient } from "./src/myClient";
-import { Config } from './src/config';
+import interactionCreate from "./listeners/interactionCreate";
+import ready from "./listeners/ready";
+import { Config } from './config';
 import { Player } from 'discord-player';
-import { GatewayIntentBits } from "discord.js";
+import { Client, GatewayIntentBits } from "discord.js";
 
 console.log("Bot is starting...");
+
+export class MyClient extends Client {
+    public config: any;
+    public player!: Player;
+}
 
 const client = new MyClient({
     intents: [

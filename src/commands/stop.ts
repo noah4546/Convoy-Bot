@@ -1,9 +1,9 @@
 import { ApplicationCommandType, CommandInteraction } from 'discord.js';
 import { Command } from './command';
-import { MyClient } from '../myClient';
+import { MyClient } from 'src';
 
 export const Stop: Command = {
-    name: "cvstop",
+    name: "stop",
     description: "STOP THIS NONSENSE!",
     type: ApplicationCommandType.ChatInput,
     run: async (client: MyClient, interaction: CommandInteraction) => {

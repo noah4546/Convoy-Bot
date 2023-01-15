@@ -1,10 +1,10 @@
 import { QueryType } from 'discord-player';
 import { ApplicationCommandOptionType, ApplicationCommandType, CommandInteraction, GuildMember, UserResolvable } from 'discord.js';
-import { MyClient } from 'src/myClient';
+import { MyClient } from 'src';
 import { Command } from './command';
 
 export const Loop: Command = {
-    name: "cvloop",
+    name: "loop",
     description: "Play a song multiple times",
     type: ApplicationCommandType.ChatInput,
     options: [

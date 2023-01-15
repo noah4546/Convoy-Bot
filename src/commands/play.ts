@@ -1,11 +1,11 @@
 import { ApplicationCommandType, ApplicationCommandOptionType, CommandInteraction, GuildMember, UserResolvable } from 'discord.js';
 
 import { Command } from "./command";
-import { MyClient } from '../myClient';
+import { MyClient } from 'src';
 import { QueryType } from 'discord-player';
 
 export const Play: Command = {
-    name: "cvplay",
+    name: "play",
     description: "Play a song",
     type: ApplicationCommandType.ChatInput,
     options: [
