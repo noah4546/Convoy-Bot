@@ -1,6 +1,7 @@
 export const Config = {
     app: {
-        token: "MTAyMDg2NDgyNDM0OTAzNjYxNQ.GHIb0J.uL3uMfNpkXag1h9c-kGI7bx4QvaRuIMjKeJeQM",
+        name: "Convoy Bot",
+        token: "MTAyMDg2NDgyNDM0OTAzNjYxNQ.Gd3li4.gssJ72JXSPwflj6OsMFeS0GKKCF960o0HSzdFw",
         playing: '!!!CONVOY!!!',
         global: true,
         guild: 'XXX'
